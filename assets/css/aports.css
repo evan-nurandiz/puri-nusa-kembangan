@@ -238,7 +238,7 @@ ul {
   vertical-align: middle;
   -webkit-appearance: none;
   outline: none !important;
-  background-color: var(--aports-base);
+  background-color: #344643;
   color: var(--aports-white);
   font-size: 12px;
   font-weight: 700;
@@ -261,7 +261,7 @@ ul {
   transform: translateX(-50%);
   border-radius: 50%;
   z-index: -1;
-  background: var(--aports-black);
+  background: #344643;
   -webkit-transition-duration: 800ms;
   transition-duration: 800ms;
 }
@@ -466,7 +466,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--aports-black);
+  background-color: #344643;
   padding-left: 310px;
   padding-right: 60px;
   padding-top: 5px;
@@ -476,6 +476,7 @@ ul {
 .main-header__top-left {
   position: relative;
   display: block;
+  height: 20px;
 }
 
 .main-header__contact-list {
@@ -528,6 +529,7 @@ ul {
   position: relative;
   display: flex;
   align-items: center;
+  height: 20px;
 }
 
 .main-header__top-time {
@@ -592,7 +594,7 @@ ul {
 .main-menu__logo {
   position: relative;
   display: block;
-  background-color: var(--aports-base);
+  background-color: #1D2D2B;
   padding: 30.5px 60px;
   margin-top: -40px;
 }
@@ -664,7 +666,7 @@ ul {
 }
 
 .stricky-header.main-menu {
-  background-color: var(--aports-black);
+  background-color: #344643;
 }
 
 
@@ -2294,7 +2296,7 @@ ul {
 .counter-one__inner {
   position: relative;
   display: block;
-  background-color: var(--aports-primary);
+  background-color: #344643;
   max-width: 870px;
   width: 100%;
   margin-left: auto;
@@ -2823,7 +2825,7 @@ ul {
   justify-content: space-between;
   max-width: 395px;
   width: 100%;
-  background-color: var(--aports-primary);
+  background-color: #DBD9D7;
   padding: 22px 40px 22px;
 }
 
@@ -2855,6 +2857,10 @@ ul {
   position: relative;
   display: block;
   margin-left: 55px;
+}
+
+.floor-plan__tab-content-center {
+  margin: auto;
 }
 
 .floor-plan__tab-content-righ img {
@@ -3316,7 +3322,7 @@ ul {
   position: relative;
   display: block;
   padding: 60px 0 60px;
-  background-color: var(--aports-base);
+  background-color: #1D2D2B;
   z-index: 1;
 }
 
@@ -8185,3 +8191,12 @@ ul {
 /*--------------------------------------------------------------
 # End
 --------------------------------------------------------------*/
+
+
+.count-text {
+  color: #FFFFFF;
+}
+
+#count-text-black {
+  color: #000000;
+}
