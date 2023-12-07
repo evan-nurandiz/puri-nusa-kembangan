@@ -3836,10 +3836,30 @@ ul {
 .site-footer {
   position: relative;
   display: block;
-  background-color: var(--aports-black);
+  background-color: #344643;
   z-index: 1;
 }
 
+.site-footer-custom {
+  position: relative;
+  display: block;
+  background-color: #344643;
+  z-index: 1;
+  padding-top: 80px;
+  padding-bottom: 180px;
+  padding-left: 98px;
+  padding-right: 114px;
+}
+
+.site-footer-custom-inner-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+
+.site-footer-custom-inner-left-icon-2 {
+  margin-bottom: 72px;
+}
 .site-footer__top {
   position: relative;
   display: block;
