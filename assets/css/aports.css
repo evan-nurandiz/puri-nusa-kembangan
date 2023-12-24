@@ -3145,6 +3145,7 @@ ul {
   position: relative;
   display: block;
   z-index: 1;
+  background-color: #ffffff;
 }
 
 .neighborhoods__img:before {
